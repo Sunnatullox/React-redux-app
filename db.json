@@ -1,0 +1,44 @@
+{
+  "news": [
+    {
+      "id": "98426bf4-9052-4ad4-8934-048f4fdcb9d2",
+      "name": "sunnatullox",
+      "discrioption": "Norway Christmas party causes biggest Omicron outbreak outside South Africa",
+      "category": "Sport_News"
+    },
+    {
+      "id": "51959a46-8892-4582-877a-06d32b96c58f",
+      "name": "sunnatullox",
+      "discrioption": "JFVDJHVBJHDSBVBDVBDSJBVDSV",
+      "category": "Covid_News"
+    },
+    {
+      "id": "74da1cb0-aeda-4ac5-b9e3-f8a8d1fcb88a",
+      "name": "Is the future of football financing in cryptocurrency",
+      "discrioption": "dcsdvdsvsdvsdbvdvsdvsdvsdvsdvsdv",
+      "category": "Euro_News"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "Sport_News",
+      "label": "Sport_News",
+      "className": "btn-danger"
+    },
+    {
+      "name": "Covid_News",
+      "label": "Covid_News",
+      "className": "btn-primary"
+    },
+    {
+      "name": "Euro_News",
+      "label": "Euro_News",
+      "className": "btn-success"
+    }
+  ]
+}

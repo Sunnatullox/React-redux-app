@@ -1,0 +1,45 @@
+@import "./Bootstrap.min.css";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.app
+{
+    height:100vh;
+    overflow:scroll;
+    overflow-x: hidden;
+    background:url("./assets/img.jpg")center / cover no-repeat;
+}
+.content 
+{
+    display:grid;
+    grid-template-columns:700px 350px;
+    max-width:1400px;
+    margin:0 auto;
+    padding-top:50px;
+    &__page
+    {
+        padding-left:40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
