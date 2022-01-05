@@ -21,7 +21,7 @@ function NewsList() {
   }, []);
 
   const onDelet = useCallback((id) => {
-    request(`http://localhost:3001/news/${id}`, "DELETE")
+    request(`https://reactreduxmyapp.herokuapp.com/news/${id}`, "DELETE")
       .then((data) => console.log(data + "DELETE"))
       .then(dispatch(newsDeleted(id)))
       .catch(() => dispatch("NEWS_FETCHING_ERROR"));

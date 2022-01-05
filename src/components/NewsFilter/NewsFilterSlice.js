@@ -11,7 +11,7 @@ export const filterfetchingnews= createAsyncThunk(
   "filter/fetchnews",
   async()=> {
     const {request}= useHttp();
-    return request("http://localhost:3001/filters")
+    return request("https://reactreduxmyapp.herokuapp.com/filters")
   }
 )
 

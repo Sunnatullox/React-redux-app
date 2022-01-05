@@ -5,7 +5,7 @@ const midldleweres = jsonServer.defaults({
     static:"./build"
 });
 
-const  port = process.env.PORT || 5000;
+const  port = process.env.PORT || 3001;
 server.use(midldleweres);
 server.use(jsonServer.rewriter({
     "/api/*":"/$1",

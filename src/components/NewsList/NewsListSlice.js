@@ -11,7 +11,7 @@ export const fetchnews = createAsyncThunk(
   "news/fetchNews",
   async()=> {
     const {request} = useHttp();
-    return await request("http://localhost:3001/news")
+    return await request("https://reactreduxmyapp.herokuapp.com/news")
   }
 )
 

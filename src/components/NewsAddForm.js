@@ -17,7 +17,7 @@ export default function NewsAddForm() {
   const onSubmitHendel= (e)=> {
       e.preventDefault();
     const newNews = {id: v4(), name, discrioption, category};
-    request("http://localhost:3001/news", "POST", JSON.stringify(newNews))
+    request("https://reactreduxmyapp.herokuapp.com/news", "POST", JSON.stringify(newNews))
     .then(() => console.log("Add News"))
     .then(dispatch(newsCreated(newNews)))
     .catch(err => console.log(err))
